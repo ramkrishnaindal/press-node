@@ -17,7 +17,7 @@ app.post("/receive", function (req, res) {
       src: process.env.FROM_NUMBER || "+919657990556",
       dst: process.env.TO_NUMBER || "+917499062397",
       //   ${req.body.From}: ${req.body.Body}`
-      text: `Message sent by ${req.body.From}. Message is ${req.body.Body}`,
+      text: `Message sent by ${req.body.From} to ${req.body.To}. Message is ${req.body.Body}`,
       //   method: "GET",
       // url: "https://<yourdomain>.com/sms_status/",
     })
