@@ -11,7 +11,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^16.3.1",
     "express": "^4.18.2",
+    "firebase": "^10.1.0",
     "plivo": "^4.51.0"
   }
 }
